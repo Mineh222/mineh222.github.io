@@ -8,6 +8,50 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+/* Mineh's bonus styling */
+
+.github-icon {
+  font-size: 50px;
+}
+
+.github-icon:hover {
+  transform: scale(1.3);
+}
+
+.angel-list-icon {
+  font-size: 50px;
+}
+
+.angel-list-icon:hover {
+  transform: scale(1.3);
+}
+
+.linkedin-icon {
+  font-size: 50px;
+}
+
+.linkedin-icon:hover {
+  transform: scale(1.3);
+}
+
+#icon-title {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+#about-socials {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.contact-row {
+  display: flex;
+  justify-content: center;
+}
+
+/* End Mineh's styling */
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
@@ -231,12 +275,12 @@ a:hover {
   transition: all 500ms ease;
 }
 
-.socials .ico-circle:hover {
+/* .socials .ico-circle:hover {
   background-color: #0078ff;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
-}
+} */
 
 /*------/ Ul resect /------*/
 .ul-resect,
@@ -490,7 +534,7 @@ a:hover {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -629,7 +673,7 @@ a:hover {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #fff;

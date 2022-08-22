@@ -12,6 +12,8 @@
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <script src="https://kit.fontawesome.com/aa441f8d91.js" crossorigin="anonymous"></script>
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -101,22 +103,24 @@
                   <div class="skill-mf">
                     <p class="title-s">Socials</p>
                     <div id="social-about">
-                      <div class="about-div">
-                        <a href="https://github.com/Mineh222"><span class="ico-circle"><i class="fa fa-github" aria-hidden="true"
-                                target="_blank"></i></span></a>
-                                <p>GitHub</p>
+                      <div id="about-socials">
+                        <a class="github-icon" href="https://github.com/Mineh222"><span><i class="devicon-github-original" aria-hidden="true" id="github-icon"
+                          target="_blank"></i></span></a>
+                          <p id="icon-title">GitHub</p>
+                        </div>
+
+                      <div id="about-socials">
+                        <a class="linkedin-icon" href="https://www.linkedin.com/in/minehgharabegi/" target="_blank"><span>
+                          <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" height="50" width="50" class="linkedin-icon"/> -->
+                          <i class="devicon-linkedin-plain" id="linkedin-icon"></i>
+                        </a>
+                        <p id="icon-title">LinkedIn</p>
                       </div>
 
-                      <div class="about-div">
-                        <a href="https://www.linkedin.com/in/minehgharabegi/"><span class="ico-circle"><i class="fa fa-linkedin" aria-hidden="true"
-                              target="_blank"></i></span></a>
-                          <p>LinkedIn</p>
-                      </div>
-
-                      <div class="about-div">
-                        <a href="https://angel.co/u/mineh-gharabegi"><span class="ico-circle"><i class="fa fa-angellist" aria-hidden="true"
-                              target="_blank"></i></span></a>
-                        <p>AngelList</p>
+                      <div id="about-socials">
+                        <a class="angel-list-icon" href="https://angel.co/u/mineh-gharabegi" target="_blank"><span><i class="fa-brands fa-angellist"></i>
+                            </span></a>
+                        <p id="icon-title">AngelList</p>
                       </div>
 
                   </div>
@@ -154,11 +158,11 @@
           <div class="col-sm-12">
             <div class="title-box text-center">
               <h3 class="title-a">
-                Services
+                Skills
               </h3>
-              <p class="subtitle-a">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              </p>
+              <!-- <p class="subtitle-a">
+                Listed are a few of my technical skills.
+              </p> -->
               <div class="line-mf"></div>
             </div>
           </div>
@@ -167,14 +171,13 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-briefcase"></i></span>
+                <span>
+                  <a class="icon-links" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="80" height="80"/></a>
+                </span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Web Design</h2>
+                <h2 class="s-title">Javascript</h2>
                 <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
                 </p>
               </div>
             </div>
@@ -182,14 +185,13 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-card-checklist"></i></span>
+                <span>
+                  <a class="icon-links" href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="80" height="80"/> </a>
+                </span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Web Development</h2>
+                <h2 class="s-title">Python</h2>
                 <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
                 </p>
               </div>
             </div>
@@ -197,14 +199,13 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-bar-chart"></i></span>
+                <span>
+                  <a class="icon-links" href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="80" height="80"/> </a>
+                </span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Photography</h2>
+                <h2 class="s-title">React</h2>
                 <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
                 </p>
               </div>
             </div>
@@ -212,14 +213,13 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-binoculars"></i></span>
+                <span>
+                  <a class="icon-links" href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="80" height="80"/> </a>
+                </span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Responsive Design</h2>
+                <h2 class="s-title">Redux</h2>
                 <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
                 </p>
               </div>
             </div>
@@ -227,14 +227,13 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-brightness-high"></i></span>
+                <span>
+                  <a class="icon-links" href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="80" height="80"/> </a>
+                </span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Graphic Design</h2>
+                <h2 class="s-title">Flask</h2>
                 <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
                 </p>
               </div>
             </div>
@@ -242,18 +241,199 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-calendar4-week"></i></span>
+                <span>
+                  <a class="icon-links" href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="80" height="80"/> </a>
+                </span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Marketing Services</h2>
+                <h2 class="s-title">Express.js</h2>
                 <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                  provident vitae! Magni
-                  tempora perferendis eum non provident.
                 </p>
               </div>
             </div>
           </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span>
+                  <a class="icon-links" href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="80" height="80"/> </a>
+                </span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Node.js</h2>
+                <p class="s-description text-center">
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span>
+                  <a class="icon-links" href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="80" height="80"/> </a>
+                </span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">PostgreSQL</h2>
+                <p class="s-description text-center">
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span>
+                  <a class="icon-links" href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="80" height="80"/> </a>
+                </span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">HTML/HTML5</h2>
+                <p class="s-description text-center">
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span>
+                  <a class="icon-links" href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="80" height="80"/> </a>
+                </span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">CSS/CSS3</h2>
+                <p class="s-description text-center">
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span>
+                  <a class="icon-links" href="https://pugjs.org" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/pug.svg" alt="pug" width="80" height="80"/> </a>
+                </span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Pug</h2>
+                <p class="s-description text-center">
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span>
+                  <a class="icon-links" href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="80" height="80"/> </a>
+                </span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">AWS</h2>
+                <p class="s-description text-center">
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span>
+                  <a class="icon-links" href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="80" height="80"/> </a>
+                </span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Docker</h2>
+                <p class="s-description text-center">
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span>
+                  <a class="icon-links" href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="80" height="80"/> </a>
+                </span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Heroku</h2>
+                <p class="s-description text-center">
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span>
+                  <a class="icon-links" href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="80" height="80"/> </a>
+                </span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Git</h2>
+                <p class="s-description text-center">
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span>
+                  <a class="icon-links" href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="80" height="80"/> </a>
+                </span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Git</h2>
+                <p class="s-description text-center">
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span>
+                  <a class="icon-links" href="https://mochajs.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/mochajs/mochajs-icon.svg" alt="mocha" width="80" height="80"/> </a>
+                </span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Mocha</h2>
+                <p class="s-description text-center">
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span>
+                  <a href="https://www.cypress.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/6e46ec1fc23b60c8fd0d2f2ff46db82e16dbd75f/icons/cypress.svg" alt="cypress" width="80" height="80"/> </a>
+                </span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Cypress</h2>
+                <p class="s-description text-center">
+                </p>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section><!-- End Services Section -->
@@ -268,7 +448,7 @@
                 Portfolio
               </h3>
               <p class="subtitle-a">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Check out my projects and demo them live!
               </p>
               <div class="line-mf"></div>
             </div>
@@ -277,163 +457,88 @@
         <div class="row">
           <div class="col-md-4">
             <div class="work-box">
-              <a href="assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <a href="https://piccstagram.herokuapp.com/" target="_blank">
                 <div class="work-img">
-                  <img src="assets/img/work-1.jpg" alt="" class="img-fluid">
+                  <img src="assets/img/picstagram.png" alt="" class="img-fluid">
+                </div>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <h2 class="w-title">Picstagram</h2>
+                      <div class="w-more">
+                        <span class="w-ctegory">An Instagram clone.</span>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="w-like">
+                        <span class="ion-ios-plus-outline"></span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Lorem impsum dolor</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="work-box">
-              <a href="assets/img/work-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <a href="https://snacksy.herokuapp.com/" target="_blank">
                 <div class="work-img">
-                  <img src="assets/img/work-2.jpg" alt="" class="img-fluid">
+                  <img src="assets/img/snacksy.png" alt="" class="img-fluid">
+                </div>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <h2 class="w-title">Snacksy</h2>
+                      <div class="w-more">
+                        <span class="w-ctegory">An Etsy clone with a twist. On Snacksy, you can buy and sell your favorite snacks!</span>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="w-like">
+                        <span class="ion-ios-plus-outline"></span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Loreda Cuno Nere</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="work-box">
-              <a href="assets/img/work-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <a href="https://pawws.herokuapp.com/" target="_blank">
                 <div class="work-img">
-                  <img src="assets/img/work-3.jpg" alt="" class="img-fluid">
+                  <img src="assets/img/paws.png" alt="" class="img-fluid">
+                </div>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <h2 class="w-title">Paws</h2>
+                      <div class="w-more">
+                        <span class="w-ctegory">On Paws, users can browse Doggy Daycare Businesses and leave reviews after taking their doggies there!</span>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="w-like">
+                        <span class="ion-ios-plus-outline"></span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Mavrito Lana Dere</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/work-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/work-4.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Bindo Laro Cado</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/work-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/work-5.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Studio Lena Mado</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="assets/img/work-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                <div class="work-img">
-                  <img src="assets/img/work-6.jpg" alt="" class="img-fluid">
-                </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Studio Big Bang</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
+    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay.png)">
       <div class="overlay-mf"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
             <div class="contact-mf">
               <div id="contact" class="box-shadow-full">
-                <div class="row">
-                  <div class="col-md-6">
+                <div class="row contact-row">
+                  <!-- <div class="col-md-6">
                     <div class="title-box-2">
                       <h5 class="title-left">
                         Send Message Us
@@ -473,8 +578,8 @@
                         </div>
                       </form>
                     </div>
-                  </div>
-                  <div class="col-md-6">
+                  </div> -->
+                  <div class="col-md-6 get-in-touch">
                     <div class="title-box-2 pt-4 pt-md-0">
                       <h5 class="title-left">
                         Get in Touch
@@ -482,10 +587,7 @@
                     </div>
                     <div class="more-info">
                       <p class="lead">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
-                        expedita aperiam aliquid at.
-                        Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
-                        mollitia inventore?
+                        I'd love to connect! Please feel free to call me or shoot me an email.
                       </p>
                       <ul class="list-ico">
                         <li><span class="bi bi-geo-alt"></span> Los Angeles, CA</li>
@@ -495,10 +597,11 @@
                     </div>
                     <div class="socials">
                       <ul>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
+                        <li><a href="https://github.com/Mineh222"><span><i class="devicon-github-original" aria-hidden="true" id="github-icon"
+                          target="_blank"></i></span></a></li>
+                        <li><a href="https://www.linkedin.com/in/minehgharabegi/" target="_blank"><span><i class="bi bi-linkedin"></i></span></a></li>
+                        <li><a href="https://angel.co/u/mineh-gharabegi" target="_blank"><span><i class="fa-brands fa-angellist"></i>
+                        </span></a></li>
                       </ul>
                     </div>
                   </div>
